@@ -1,4 +1,39 @@
+.signUpWrapper .addIcon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.signupHeader {
+  text-align: center;
+}
 
+.signupHeader img {
+  margin-bottom: 10px;
+}
+
+.signupWrapper {
+  background-color: #efefef;
+}
+
+input#addressLine1 {
+  margin-bottom: 5px;
+}
+
+input#addressLine2 {
+  margin-bottom: 5px;
+}
+
+.signupWrapper input {
+  margin-bottom: 5px;
+}
+.signupSubmit {
+  background-color: #3A5AA8;
+}
+.signupHeader h3 {
+  color: #7A8F99;
+}
 
 
 

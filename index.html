@@ -8,7 +8,95 @@
 </head>
 <body>
 
-<h1>SIgn up</h1>
+<div class="container-fluid signupWrapper">
+<div class="row justify-content-md-center">
+        <div class="signupHeader">
+            <img src="assets/images/ventes.svg" />
+            <h3>Let's get started by finding your business</h3>
+        </div>
+</div>
+<div class="row justify-content-md-center">
+        <div class="signupForm">
+                <form>
+                    <div class="form-group">
+                        <label for="dunsNumber">What is the DUNS number of your business?</label>
+                        <input type="text" class="form-control" id="dunsNumber" aria-describedby="DunsNumber" placeholder="DUNS Number">
+                        <small id="dunsNumberHelp" class="form-text text-muted">It's the number you get when you register your business at <a href="#">sba.gov</a></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessName">What is the name of your business?</label>
+                        <input type="text" class="form-control" id="businessName" aria-describedby="businessName" placeholder="Business Name">
+                        <small id="businessNameHelp" class="form-text text-muted">The exact name you have registered in the documents</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessAddress">Address of your business</label>
+                        <input type="text" class="form-control" id="addressLine1" aria-describedby="addressLine1" placeholder="Address Line 1">
+                        <input type="text" class="form-control" id="addressLine2" aria-describedby="addressLine2" placeholder="Address Line 2">
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="City">
+                            </div>
+                            <div class="col">
+                                <select class="form-control" id="state">
+                                        <option>Choose...</option>
+                                        <option>CA</option>
+                                        <option>DC</option>
+                                        <option>MD</option>
+                                        <option>VA</option>
+                                        <option>WA</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Country">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description of your business</label>
+                        <textarea class="form-control" id="description" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="businessAddress">What Service does your company provide</label>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First Service name">
+                            </div>
+                            <div class="col">
+                                <!--<span class="input-group-addon">$</span>-->
+                                <input type="text" class="form-control" placeholder="Price">
+                            </div>
+                            <!--
+                            <div class="col">
+                                <span class="input-group-addon addIcon"></span>
+                            </div>
+                            -->
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Second Service name">
+                            </div>
+                            <div class="col">
+                                <!--<span class="input-group-addon">$</span>-->
+                                <input type="text" class="form-control" placeholder="Price">
+                                
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Third Service name">
+                            </div>
+                            <div class="col">
+                                <!--<span class="input-group-addon">$</span>-->
+                                <input type="text" class="form-control" placeholder="Price">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary signupSubmit">Let's Go!</button>
+                </form>
+        </div>
+</div>
+</div>
+
 
 
 
